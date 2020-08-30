@@ -1,0 +1,25 @@
+/* Task 3 */
+
+#gallery {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: dense;
+  grid-auto-rows: 50px;
+}
+
+/* Task 6 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
